@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded());
 
-app.get('/', (req, res) => {
+app.get('/login', (req, res) => {
     res.send('Hello, World!');
 });
 
